@@ -1,0 +1,25 @@
+name: Template feature or reader
+description: Propose a feature, reader format, or capability for the kitab template
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        kitab is a config-driven book template. Proposals should keep the
+        config/plumbing separation: a new book must remain "edit config, not code".
+        See CONTEXT.md.
+  - type: textarea
+    id: what
+    attributes: { label: What should it do?, description: The capability and why it helps }
+    validations: { required: true }
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Which layer?
+      options: ["Data (config/content schema)", "Presentation (reader/chrome)", "Content (figure/talking-artifact)", "Features (share/learning/etc.)"]
+  - type: dropdown
+    id: ai
+    attributes:
+      label: Reviewer
+      options: ["Claude (rigor)", "ChatGPT (docs)", "Gemini (alternatives)", "human-only"]

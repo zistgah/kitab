@@ -1,0 +1,69 @@
+{
+  "id": "ch-01",
+  "title": "Lorem Ipsum Primum",
+  "subtitle": "Dolor Sit Amet",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sectio Prima"
+    },
+    {
+      "type": "paragraph",
+      "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "type": "figure",
+      "id": "fig-01-01",
+      "dimension": "2d",
+      "src": "assets/figures/placeholder-01.svg",
+      "alt": "Lorem ipsum placeholder diagram",
+      "caption": "Figura 1.1 — Lorem ipsum schema exempli.",
+      "explanation": "This figure explains itself. Replace this text with what the diagram shows: its parts, what they mean, and why it matters. Lorem ipsum dolor sit amet, the left node maps to the right node via the labelled arrow.",
+      "tts": "Figure one point one. A lorem ipsum placeholder diagram. The left element connects to the right element through a labelled relation.",
+      "seed": {
+        "enabled": true,
+        "prompt": "Explain the figure titled 'Lorem ipsum schema exempli' from the chapter 'Lorem Ipsum Primum'. What are its parts and how do they relate?"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+    },
+    {
+      "type": "callout",
+      "variant": "note",
+      "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. This is a callout block — use it for notes, warnings, or key results."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sectio Secunda"
+    },
+    {
+      "type": "paragraph",
+      "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident."
+    },
+    {
+      "type": "figure",
+      "id": "fig-01-02",
+      "dimension": "3d",
+      "src": "assets/figures/placeholder-3d.svg",
+      "alt": "Placeholder for a 3D object",
+      "caption": "Figura 1.2 — Objectum tridimensionale (hook).",
+      "explanation": "A 3D object placeholder. This entry declares WHAT the object is and WHERE it is used; the actual 3D renderer is a hook. Replace src with a live 3D embed when available.",
+      "tts": "Figure one point two. A three dimensional object placeholder, declared but not yet rendered.",
+      "declares": {
+        "kind": "3d-object",
+        "used_in": ["ch-01"],
+        "renderer_hook": "figure3d",
+        "descriptor": "Lorem ipsum solid: a placeholder volume awaiting a live renderer."
+      },
+      "seed": { "enabled": true, "prompt": "Describe the 3D object placeholder in chapter one and what a live version would show." }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+name: New book from this template
+description: Announce or get help seeding a new book on kitab
+title: "[Book] "
+labels: ["book"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Using kitab for a book? To create one: fork, edit config/book.config.json,
+        write content/*.json, drop figures in assets/figures/. No code changes.
+  - type: input
+    id: title
+    attributes: { label: Book title }
+    validations: { required: true }
+  - type: input
+    id: repo
+    attributes: { label: Target repo, placeholder: owner/your-book }
+  - type: textarea
+    id: help
+    attributes: { label: What do you need? }

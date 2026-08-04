@@ -1,0 +1,23 @@
+{
+  "id": "ch-03",
+  "title": "Tempor Tertium",
+  "subtitle": "Incididunt Ut Labore",
+  "blocks": [
+    { "type": "paragraph", "text": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." },
+    { "type": "heading", "level": 2, "text": "Sectio Prima" },
+    { "type": "paragraph", "text": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est." },
+    {
+      "type": "figure",
+      "id": "fig-03-01",
+      "dimension": "hyper",
+      "src": "assets/figures/placeholder-hyper.svg",
+      "alt": "Hyperdimensional object placeholder",
+      "caption": "Figura 3.1 — Objectum hyperdimensionale (hook).",
+      "explanation": "A hyperdimensional object placeholder. Declares what it is and where used; renderer is a hook for a future projection view.",
+      "tts": "Figure three point one. A hyperdimensional object placeholder.",
+      "declares": { "kind": "hyper-object", "used_in": ["ch-03"], "renderer_hook": "figureHyper", "descriptor": "Lorem ipsum n-dimensional form awaiting a projection renderer." },
+      "seed": { "enabled": true, "prompt": "Describe the hyperdimensional placeholder in chapter three." }
+    },
+    { "type": "callout", "variant": "note", "text": "Omnis voluptas assumenda est, omnis dolor repellendus — a closing note." }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "./book.schema.json",
+  "meta": {
+    "title": "Lorem Ipsum Dolor",
+    "subtitle": "Sit Amet Consectetur Adipiscing Elit",
+    "author": "Auctor Nomen",
+    "affiliation": "Institutio Exempli",
+    "orcid": "0000-0000-0000-0000",
+    "copyright": "© 1900–2000 Auctor Nomen. All rights reserved.",
+    "license": "cc-by-sa-4.0",
+    "doi": null,
+    "repo": "owner/book-repo",
+    "cover": "assets/figures/cover.svg",
+    "language": "en"
+  },
+  "theme": {
+    "tokens": {
+      "--ink": "#0a0e27",
+      "--acc": "#d4a843",
+      "--light": "#fbf6e9",
+      "--panel": "rgba(255,255,255,0.05)",
+      "--panel-border": "rgba(212,168,67,0.2)",
+      "--font-body": "Georgia, 'Times New Roman', serif",
+      "--font-head": "Georgia, 'Times New Roman', serif",
+      "--font-mono": "'Courier New', monospace",
+      "--maxw": "1100px",
+      "--radius": "4px"
+    }
+  },
+  "structure": {
+    "parts": [
+      {
+        "id": "part-i",
+        "title": "Pars Prima — Lorem Fundamenta",
+        "chapters": ["ch-01", "ch-02"]
+      },
+      {
+        "id": "part-ii",
+        "title": "Pars Secunda — Ipsum Progressio",
+        "chapters": ["ch-03"]
+      }
+    ],
+    "chapters": [
+      {
+        "id": "ch-01",
+        "number": 1,
+        "title": "Lorem Ipsum Primum",
+        "subtitle": "Dolor Sit Amet",
+        "source": "content/ch-01.json",
+        "topics": ["lorem", "ipsum", "dolor"]
+      },
+      {
+        "id": "ch-02",
+        "number": 2,
+        "title": "Consectetur Secundum",
+        "subtitle": "Adipiscing Elit",
+        "source": "content/ch-02.json",
+        "topics": ["consectetur", "adipiscing"]
+      },
+      {
+        "id": "ch-03",
+        "number": 3,
+        "title": "Tempor Tertium",
+        "subtitle": "Incididunt Ut Labore",
+        "source": "content/ch-03.json",
+        "topics": ["tempor", "labore", "magna"]
+      }
+    ]
+  }
+}

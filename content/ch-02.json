@@ -1,0 +1,22 @@
+{
+  "id": "ch-02",
+  "title": "Consectetur Secundum",
+  "subtitle": "Adipiscing Elit",
+  "blocks": [
+    { "type": "paragraph", "text": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur." },
+    { "type": "heading", "level": 2, "text": "Sectio Prima" },
+    { "type": "paragraph", "text": "Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium." },
+    {
+      "type": "figure",
+      "id": "fig-02-01",
+      "dimension": "2d",
+      "src": "assets/figures/placeholder-02.svg",
+      "alt": "Second placeholder diagram",
+      "caption": "Figura 2.1 — Lorem ipsum secundum.",
+      "explanation": "Replace with what this diagram shows. Lorem ipsum dolor sit amet.",
+      "tts": "Figure two point one. A second lorem ipsum placeholder diagram.",
+      "seed": { "enabled": true, "prompt": "Explain figure 2.1 from chapter 'Consectetur Secundum'." }
+    },
+    { "type": "paragraph", "text": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae." }
+  ]
+}

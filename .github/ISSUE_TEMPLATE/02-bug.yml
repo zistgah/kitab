@@ -1,0 +1,15 @@
+name: Bug
+description: A reader, feature, or config-loading bug
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: What happened?, description: Steps, expected vs actual }
+    validations: { required: true }
+  - type: input
+    id: reader
+    attributes: { label: Which reader format?, placeholder: paginated / scroll / liquid }
+  - type: input
+    id: browser
+    attributes: { label: Browser }

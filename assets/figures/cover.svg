@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Book cover placeholder">
+  <rect width="400" height="600" fill="#0a0e27"/>
+  <rect x="8" y="8" width="384" height="584" fill="none" stroke="#d4a843" stroke-width="2"/>
+  <text x="200" y="260" fill="#fbf6e9" font-family="Georgia, serif" font-size="34" font-weight="bold" text-anchor="middle">LOREM</text>
+  <text x="200" y="310" fill="#fbf6e9" font-family="Georgia, serif" font-size="34" font-weight="bold" text-anchor="middle">IPSUM</text>
+  <text x="200" y="360" fill="#d4a843" font-family="Georgia, serif" font-size="16" font-style="italic" text-anchor="middle">Sit Amet Consectetur</text>
+  <text x="200" y="560" fill="#d4a843" font-family="Georgia, serif" font-size="14" text-anchor="middle">AUCTOR NOMEN</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Lorem ipsum figure 1.1">
+  <rect width="640" height="360" fill="#0a0e27"/>
+  <rect x="1" y="1" width="638" height="358" fill="none" stroke="#d4a843" stroke-width="1" stroke-dasharray="6 6"/>
+  <circle cx="200" cy="180" r="46" fill="none" stroke="#d4a843" stroke-width="2"/>
+  <circle cx="440" cy="180" r="46" fill="none" stroke="#d4a843" stroke-width="2"/>
+  <line x1="246" y1="180" x2="394" y2="180" stroke="#d4a843" stroke-width="2" marker-end="url(#a)"/>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#d4a843"/></marker></defs>
+  <text x="320" y="330" fill="#fbf6e9" font-family="Georgia, serif" font-size="16" text-anchor="middle">Lorem ipsum figure 1.1</text>
+</svg>
