@@ -1,0 +1,18 @@
+{
+    "_type": "https://in-toto.io/Statement/v1",
+    "predicateType": "https://project-ilm.org/attestations/candor/v1",
+    "subject": [
+        {
+            "name": "zistgah/kitab",
+            "digest": {
+                "gitCommit": "a709a45b62803a79b9765241f14c40ce0455387b"
+            }
+        }
+    ],
+    "predicate": {
+        "action": "PUSH",
+        "reason": "seed",
+        "utc": "20260804T042954Z",
+        "host": "ilm01-lin"
+    }
+}
