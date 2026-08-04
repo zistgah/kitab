@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "types": {
+    "resourceTypeGeneral": "Software",
+    "resourceType": "software"
+  },
+  "titles": [
+    {
+      "title": "kitab — a config-driven book-publishing template"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Choudhary, Abhishek",
+      "nameType": "Personal",
+      "givenName": "Abhishek",
+      "familyName": "Choudhary",
+      "affiliation": [
+        {
+          "name": "AyeAI"
+        }
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0009-0002-0684-8320",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    }
+  ],
+  "publisher": "Zenodo",
+  "publicationYear": "2026",
+  "version": "1.0.0",
+  "descriptions": [
+    {
+      "description": "A reusable, config-driven static book template extracted from the tabdili reader architecture. Presentation, content, and data are decoupled; a new book is config plus content. Multi-format readers (paginated, continuous scroll, liquid), self-describing 'talking artifact' figures with pop-out explanations, TTS and BYOK AI-explain, learning-to-doing links, and pure-GitHub-Pages visitor participation.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "rightsList": [
+    {
+      "rights": "GPL-3.0-or-later",
+      "rightsIdentifier": "GPL-3.0-or-later",
+      "rightsIdentifierScheme": "SPDX"
+    }
+  ],
+  "language": "eng",
+  "relatedIdentifiers": [
+    {
+      "relatedIdentifier": "https://github.com/zistgah/kitab",
+      "relationType": "IsSupplementTo",
+      "relatedIdentifierType": "URL"
+    },
+    {
+      "relatedIdentifier": "https://github.com/zistgah/tabdili",
+      "relationType": "IsDerivedFrom",
+      "relatedIdentifierType": "URL"
+    }
+  ]
+}

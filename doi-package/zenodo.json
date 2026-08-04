@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "title": "kitab — a config-driven book-publishing template",
+    "description": "A reusable, config-driven static book template extracted from the tabdili reader architecture. Presentation, content, and data are decoupled; a new book is config plus content. Multi-format readers (paginated, continuous scroll, liquid), self-describing 'talking artifact' figures with pop-out explanations, TTS and BYOK AI-explain, learning-to-doing links, and pure-GitHub-Pages visitor participation.",
+    "license": "gpl-3.0",
+    "upload_type": "software",
+    "version": "1.0.0",
+    "creators": [
+      {
+        "name": "Choudhary, Abhishek",
+        "affiliation": "AyeAI",
+        "orcid": "0009-0002-0684-8320"
+      }
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/zistgah/kitab",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://github.com/zistgah/tabdili",
+        "relation": "isDerivedFrom",
+        "scheme": "url"
+      }
+    ],
+    "access_right": "open",
+    "language": "eng"
+  }
+}

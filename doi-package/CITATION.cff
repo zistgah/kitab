@@ -1,0 +1,11 @@
+cff-version: "1.2.0"
+message: "If you use this software, please cite it as below."
+title: "kitab — a config-driven book-publishing template"
+version: "1.0.0"
+abstract: "A reusable, config-driven static book template extracted from the tabdili reader architecture. Presentation, content, and data are decoupled; a new book is config plus content. Multi-format readers (paginated, continuous scroll, liquid), self-describing 'talking artifact' figures with pop-out explanations, TTS and BYOK AI-explain, learning-to-doing links, and pure-GitHub-Pages visitor participation."
+authors:
+  - family-names: "Choudhary"
+    given-names: "Abhishek"
+    orcid: "https://orcid.org/0009-0002-0684-8320"
+    affiliation: "AyeAI"
+license: "GPL-3.0-or-later"
