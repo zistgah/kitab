@@ -4,6 +4,8 @@
 
 import { loadConfigs, applyTheme, loadBookContent } from './core.js';
 import * as F from './features.js';
+import { openThemeEditor } from './theme-editor.js';
+import { initThemeEditor } from './theme-pencil.js';
 
 const state = { book: null, readers: null, features: null, chapters: null, current: null, active: null };
 
@@ -17,6 +19,9 @@ async function boot() {
   const initial = pickInitialReader();
   switchReader(initial);
   wireSelectToLearn();
+
+  // Initialize the Pencil WYSIWYG Editor
+  initThemeEditor(state);
 }
 
 function ctx() {
@@ -63,6 +68,8 @@ function renderChrome() {
 
   const tools = document.createElement('div');
   tools.className = 'kitab-tools';
+  // Add theme editor
+  tools.appendChild(iconBtn('🎨 Theme', () => openThemeEditor(state)));
 
   // Reader switch (only enabled formats).
   for (const [fmt, f] of Object.entries(state.readers.formats)) {
